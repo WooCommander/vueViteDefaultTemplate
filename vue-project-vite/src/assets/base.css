@@ -1,0 +1,52 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif !important;
+    position: relative;
+    background-color: var(--background-color);
+    min-height: 100vh;
+    color: var(--text-color);
+    transition:
+    color 0.5s,
+    background-color 0.5s;
+    line-height: 1.6;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a:hover,
+a:focus,
+a:active,
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+input:hover,
+input:focus,
+input:active,
+input,
+button:hover,
+button:focus,
+button:active,
+button {
+    border: none;
+    outline: none;
+}
+
+.container-fluid {
+    max-width: 1214px;
+}
+
+/* @media all and (min-width: 1920px) {
+    .container-fluid { max-width: 70%; }
+} */
+
