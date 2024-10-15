@@ -1,4 +1,3 @@
-
 /* @import "fonts.css"; */
 /* @font-face {
     font-family: 'arial';
@@ -6,42 +5,40 @@
     font-style: normal;
 } */
 
-
-
-
 /* Определение переменных для светлой темы */
 :root {
-    --background-color: #ffffff;
-    --background-color-invert: #282737;
-    --background-color-first: rgb(229, 229, 229, 0.2);
+  --background-color: #ffffff;
+  --background-color-invert: #282737;
+  --background-color-first: rgb(229, 229, 229, 0.2);
 
-    --text-menu-color: #5a54b2;
-    --text-color: #3b4844;
-    --text-color-invert: #ffffff;
-    --text-color-first: #282735;
-    --text-color-section-subtitle: #5d58b7;
-    --text-color-subtitle: #737373;
-    --background-color-strong: #ffe2af;
-    
-    --button-bg: #e0e0e0;
-    --button-text: #000000;
+  --text-menu-color: #5a54b2;
+  --text-color: #3b4844;
+  --text-color-invert: #ffffff;
+  --text-color-first: #282735;
+  --text-color-section-subtitle: #5d58b7;
+  --text-color-subtitle: #737373;
+  --background-color-strong: #ffe2af;
+
+  --button-bg: #e0e0e0;
+  --button-bg-hover: #e1e1e1;
+  --button-text: #000000;
 }
 
 /* Определение переменных для темной темы */
-[data-theme="dark"] {
-    --background-color: #282737;
-    --background-color-invert: #ffffff;
-    --background-color-first: #282737;
-    
-    --text-menu-color: #ffffff;
-    --text-color: #ffffff;
-    --text-color-invert: #282737;
-    --text-color-first: #fdfdfd;
-    --text-color-section-subtitle: #ffffff;
-    --text-color-subtitle: #FCFCFF;
-    --background-color-strong: #aa6d00;
+[data-theme='dark'] {
+  --background-color: #282737;
+  --background-color-invert: #ffffff;
+  --background-color-first: #282737;
 
+  --text-menu-color: #ffffff;
+  --text-color: #ffffff;
+  --text-color-invert: #282737;
+  --text-color-first: #fdfdfd;
+  --text-color-section-subtitle: #ffffff;
+  --text-color-subtitle: #fcfcff;
+  --background-color-strong: #aa6d00;
 
-    --button-bg: #555555;
-    --button-text: #ffffff;
+  --button-bg: #555555;
+  --button-bg-hover: #848484;
+  --button-text: #ffffff;
 }
